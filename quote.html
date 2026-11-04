@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Request a quotation for software development, SaaS business systems, cybersecurity or IT services from Stela." />
+    <meta name="theme-color" content="#f6f7f1" />
+    <title>Request a Quote | Stela — Software &amp; IT Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" /><script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Stela home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><rect x="12" y="14" width="40" height="10" rx="4" fill="currentColor"/><rect x="8" y="28" width="48" height="10" rx="4" fill="currentColor"/><rect x="14" y="42" width="36" height="10" rx="4" fill="#2ec59a"/></svg></span><span>stela<span class="brand-period">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="services.html">Services</a><a href="about.html">About Us</a><a href="portfolio.html">Portfolio</a><a href="faqs.html">FAQs</a><a href="contact.html">Contacts</a><a class="nav-cta" href="quote.html" aria-current="page">Request a Quote <span aria-hidden="true">↗</span></a></nav>
+    </header>
+    <main id="main">
+      <section class="page-hero section-wrap quote-page-hero">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Software development · SaaS · IT services</p>
+        <h1 class="page-title">Let’s scope your<br /><span>next solution.</span></h1>
+        <p class="page-intro">Share the service you’re considering and the outcome you need. Our team can review your requirements and prepare a quotation that reflects the work involved.</p>
+      </section>
+      <section class="quote-section section-wrap quote-page-form">
+        <div class="quote-copy reveal">
+          <p class="eyebrow">A clear starting point</p>
+          <h2>Tell us about<br />your <span>requirements.</span></h2>
+          <p>Include the problem you want to solve, who will use the system and any features or equipment you already have in mind. We’ll follow up on anything that needs clarifying.</p>
+          <div class="quote-promise"><span>✳</span><span>Plain language is perfect.<br /><b>You don’t need to prepare a technical specification.</b></span></div>
+          <div class="quote-side-note">SOFTWARE · SYSTEMS<br />&amp; IT SERVICES <span>↗</span></div>
+        </div>
+        <div class="quote-form-wrap reveal">
+          <form id="quote-form">
+            <div class="form-heading"><span>REQUEST A QUOTE</span><span class="form-step">PROJECT DETAILS</span></div>
+            <div class="form-row">
+              <label>Your name<input name="name" autocomplete="name" placeholder="How should we address you?" required /></label>
+              <label>Work email<input name="email" type="email" autocomplete="email" placeholder="you@company.com" required /></label>
+            </div>
+            <label>Organisation <span class="optional">(optional)</span><input name="organisation" autocomplete="organization" placeholder="Your business, school or institution" /></label>
+            <label>What can we help with?
+              <select name="service" required>
+                <option value="" disabled selected>Choose a service</option>
+                <option>SaaS / business management system</option>
+                <option>School management system</option>
+                <option>Property management system</option>
+                <option>Point of sale system</option>
+                <option>Website or web application</option>
+                <option>Custom software or system integration</option>
+                <option>Cross-platform application</option>
+                <option>AI, automation or data analytics</option>
+                <option>Cybersecurity or IT support</option>
+                <option>CCTV or computer hardware</option>
+                <option>Something else — let’s discuss</option>
+              </select>
+            </label>
+            <label>Project requirements<textarea name="details" rows="5" placeholder="What are you hoping to improve? Who will use the solution? Any features, systems or timelines we should know about?" required></textarea></label>
+            <div class="form-bottom"><button class="button button-dark" type="submit">Prepare my request <span aria-hidden="true">↗</span></button><span>Usually takes about 2 minutes</span></div>
+            <p class="form-privacy">Your details are used only to prepare this enquiry. This form does not send data to a server.</p>
+            <div class="form-status" id="form-status" role="status" aria-live="polite" hidden>
+              <span class="status-icon">✳</span>
+              <div><b id="status-title"></b><p id="status-message"></p><a id="draft-link" class="draft-link" href="#" hidden>Open email draft <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="quote-help subpage-tint"><div class="section-wrap quote-help-inner"><p>Looking for something else?</p><a href="services.html">See all software and IT services <span aria-hidden="true">↗</span></a><a href="faqs.html">Read the FAQs <span aria-hidden="true">↗</span></a></div></section>
+    </main>
+    <footer class="site-footer"><div class="section-wrap footer-main"><a class="brand footer-brand" href="index.html" aria-label="Stela home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64" fill="none"><rect x="12" y="14" width="40" height="10" rx="4" fill="currentColor"/><rect x="8" y="28" width="48" height="10" rx="4" fill="currentColor"/><rect x="14" y="42" width="36" height="10" rx="4" fill="#2ec59a"/></svg></span><span>stela<span class="brand-period">.</span></span></a><p>Technology with a little more<br />thought, and a lot more purpose.</p><a class="footer-contact" href="contact.html">Need to ask a question? <b>Contact Stela ↗</b></a></div><div class="section-wrap footer-bottom"><span>© <span id="year"></span> Stela. Harare, Zimbabwe.</span><span>Software engineering · IT solutions · Digital transformation.</span><a href="index.html">Home ↑</a></div></footer>
+  </body>
+</html>
